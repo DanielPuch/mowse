@@ -48,6 +48,3 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
-    
- <?php   /*Let's do a test to see if github is working*/ ?>
- <?php   /*Let's do a test2 to see if github is working*/ ?>
