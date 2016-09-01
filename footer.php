@@ -14,9 +14,9 @@
 <!-- Scripts Slider homepage -->
 
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="javascripts/jquery.easing.1.3.js"></script>
-  <script src="javascripts/jquery.animate-enhanced.min.js"></script>
-  <script src="../dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/js/jquery.animate-enhanced.min.js"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
   <script>
     $(function() {
       $('#slides').superslides({
