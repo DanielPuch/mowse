@@ -24,7 +24,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mowse' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header homepage-header" role="banner">
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>

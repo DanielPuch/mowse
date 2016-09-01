@@ -11,6 +11,31 @@
 
 ?>
 
+<!-- Scripts Slider homepage -->
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="javascripts/jquery.easing.1.3.js"></script>
+  <script src="javascripts/jquery.animate-enhanced.min.js"></script>
+  <script src="../dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    $(function() {
+      $('#slides').superslides({
+        hashchange: true,
+        play: 2000
+      });
+
+      $('#slides').on('mouseenter', function() {
+        $(this).superslides('stop');
+        console.log('Stopped')
+      });
+      $('#slides').on('mouseleave', function() {
+        $(this).superslides('start');
+        console.log('Started')
+      });
+    });
+  </script>
+
+
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
