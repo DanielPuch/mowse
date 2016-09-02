@@ -36,6 +36,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Widgets
 # Content
 	## Header
+	## Slide Homepage
 	## Posts and pages
 	## Comments
 	## Footer
@@ -537,8 +538,9 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
-	width: 100%;
+	/*float: left;*/
+/*	width: 100%;*/
+	float:right;
 }
 
 .main-navigation ul {
@@ -750,14 +752,17 @@ a:active {
 --------------------------------------------------------------*/
 /*--------------------- ## Header ----------------------------- */
 
-.site-header { 
-	background-color: black;
-	position:absolute;
+.site-header {
+	position: absolute;
 	z-index: 1;
 	width: 100%;
 	padding: 20px;
-	opacity: 0.3;
+	background-color: rgba(0,0,0,0.50);
 }
+
+.site-branding { float:left; }
+
+/*--------------------- ## Slide Front Page ----------------------------- */
 
 #slides {
 	z-index: 0;
