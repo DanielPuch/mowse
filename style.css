@@ -35,12 +35,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Clearings
 # Widgets
 # Content
+	## Header
 	## Posts and pages
 	## Comments
+	## Footer
 # Infinite scroll
 # Media
 	## Captions
 	## Galleries
+#Branding
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -745,6 +748,32 @@ a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+/*--------------------- ## Header ----------------------------- */
+
+.site-header { 
+	background-color: black;
+	position:absolute;
+	z-index: 1;
+	width: 100%;
+	padding: 20px;
+	opacity: 0.3;
+}
+
+#slides {
+	z-index: 0;
+}
+
+/*--------------------- ## Footer ----------------------------- */
+
+.site-footer {
+	background-color:black; 
+	position:absolute;
+	z-index: 0;
+	width:100%;
+	padding: 40px;
+
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -892,3 +921,8 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/* -----------------------------------------------------------
+# Branding
+-------------------------------------------------------------*/
+
